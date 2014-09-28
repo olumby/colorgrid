@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893BCFC819D824F8007DAB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFC719D824F8007DAB65 /* AppDelegate.swift */; };
+		893BCFCB19D824F8007DAB65 /* ColorGrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFC919D824F8007DAB65 /* ColorGrid.xcdatamodeld */; };
+		893BCFCD19D824F8007DAB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFCC19D824F8007DAB65 /* ViewController.swift */; };
+		893BCFD019D824F8007DAB65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893BCFCE19D824F8007DAB65 /* Main.storyboard */; };
+		893BCFD219D824F8007DAB65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893BCFD119D824F8007DAB65 /* Images.xcassets */; };
+		893BCFD519D824F8007DAB65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893BCFD319D824F8007DAB65 /* LaunchScreen.xib */; };
+		893BCFE119D824F8007DAB65 /* ColorGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFE019D824F8007DAB65 /* ColorGridTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		893BCFDB19D824F8007DAB65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 893BCFBA19D824F8007DAB65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 893BCFC119D824F8007DAB65;
+			remoteInfo = ColorGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		893BCFC219D824F8007DAB65 /* ColorGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		893BCFC619D824F8007DAB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893BCFC719D824F8007DAB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		893BCFCA19D824F8007DAB65 /* ColorGrid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorGrid.xcdatamodel; sourceTree = "<group>"; };
+		893BCFCC19D824F8007DAB65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		893BCFCF19D824F8007DAB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		893BCFD119D824F8007DAB65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		893BCFD419D824F8007DAB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		893BCFDA19D824F8007DAB65 /* ColorGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		893BCFDF19D824F8007DAB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893BCFE019D824F8007DAB65 /* ColorGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGridTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893BCFBF19D824F8007DAB65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893BCFD719D824F8007DAB65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		893BCFB919D824F8007DAB65 = {
+			isa = PBXGroup;
+			children = (
+				893BCFC419D824F8007DAB65 /* ColorGrid */,
+				893BCFDD19D824F8007DAB65 /* ColorGridTests */,
+				893BCFC319D824F8007DAB65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		893BCFC319D824F8007DAB65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893BCFC219D824F8007DAB65 /* ColorGrid.app */,
+				893BCFDA19D824F8007DAB65 /* ColorGridTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893BCFC419D824F8007DAB65 /* ColorGrid */ = {
+			isa = PBXGroup;
+			children = (
+				893BCFC719D824F8007DAB65 /* AppDelegate.swift */,
+				893BCFCC19D824F8007DAB65 /* ViewController.swift */,
+				893BCFCE19D824F8007DAB65 /* Main.storyboard */,
+				893BCFD119D824F8007DAB65 /* Images.xcassets */,
+				893BCFD319D824F8007DAB65 /* LaunchScreen.xib */,
+				893BCFC919D824F8007DAB65 /* ColorGrid.xcdatamodeld */,
+				893BCFC519D824F8007DAB65 /* Supporting Files */,
+			);
+			path = ColorGrid;
+			sourceTree = "<group>";
+		};
+		893BCFC519D824F8007DAB65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				893BCFC619D824F8007DAB65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		893BCFDD19D824F8007DAB65 /* ColorGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				893BCFE019D824F8007DAB65 /* ColorGridTests.swift */,
+				893BCFDE19D824F8007DAB65 /* Supporting Files */,
+			);
+			path = ColorGridTests;
+			sourceTree = "<group>";
+		};
+		893BCFDE19D824F8007DAB65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				893BCFDF19D824F8007DAB65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893BCFC119D824F8007DAB65 /* ColorGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893BCFE419D824F8007DAB65 /* Build configuration list for PBXNativeTarget "ColorGrid" */;
+			buildPhases = (
+				893BCFBE19D824F8007DAB65 /* Sources */,
+				893BCFBF19D824F8007DAB65 /* Frameworks */,
+				893BCFC019D824F8007DAB65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorGrid;
+			productName = ColorGrid;
+			productReference = 893BCFC219D824F8007DAB65 /* ColorGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		893BCFD919D824F8007DAB65 /* ColorGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893BCFE719D824F8007DAB65 /* Build configuration list for PBXNativeTarget "ColorGridTests" */;
+			buildPhases = (
+				893BCFD619D824F8007DAB65 /* Sources */,
+				893BCFD719D824F8007DAB65 /* Frameworks */,
+				893BCFD819D824F8007DAB65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893BCFDC19D824F8007DAB65 /* PBXTargetDependency */,
+			);
+			name = ColorGridTests;
+			productName = ColorGridTests;
+			productReference = 893BCFDA19D824F8007DAB65 /* ColorGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893BCFBA19D824F8007DAB65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Oliver Lumby";
+				TargetAttributes = {
+					893BCFC119D824F8007DAB65 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					893BCFD919D824F8007DAB65 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 893BCFC119D824F8007DAB65;
+					};
+				};
+			};
+			buildConfigurationList = 893BCFBD19D824F8007DAB65 /* Build configuration list for PBXProject "ColorGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893BCFB919D824F8007DAB65;
+			productRefGroup = 893BCFC319D824F8007DAB65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893BCFC119D824F8007DAB65 /* ColorGrid */,
+				893BCFD919D824F8007DAB65 /* ColorGridTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893BCFC019D824F8007DAB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893BCFD019D824F8007DAB65 /* Main.storyboard in Resources */,
+				893BCFD519D824F8007DAB65 /* LaunchScreen.xib in Resources */,
+				893BCFD219D824F8007DAB65 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893BCFD819D824F8007DAB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893BCFBE19D824F8007DAB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893BCFCD19D824F8007DAB65 /* ViewController.swift in Sources */,
+				893BCFC819D824F8007DAB65 /* AppDelegate.swift in Sources */,
+				893BCFCB19D824F8007DAB65 /* ColorGrid.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893BCFD619D824F8007DAB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893BCFE119D824F8007DAB65 /* ColorGridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		893BCFDC19D824F8007DAB65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 893BCFC119D824F8007DAB65 /* ColorGrid */;
+			targetProxy = 893BCFDB19D824F8007DAB65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		893BCFCE19D824F8007DAB65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893BCFCF19D824F8007DAB65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		893BCFD319D824F8007DAB65 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893BCFD419D824F8007DAB65 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		893BCFE219D824F8007DAB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		893BCFE319D824F8007DAB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893BCFE519D824F8007DAB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		893BCFE619D824F8007DAB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		893BCFE819D824F8007DAB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColorGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorGrid.app/ColorGrid";
+			};
+			name = Debug;
+		};
+		893BCFE919D824F8007DAB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColorGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorGrid.app/ColorGrid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893BCFBD19D824F8007DAB65 /* Build configuration list for PBXProject "ColorGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893BCFE219D824F8007DAB65 /* Debug */,
+				893BCFE319D824F8007DAB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893BCFE419D824F8007DAB65 /* Build configuration list for PBXNativeTarget "ColorGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893BCFE519D824F8007DAB65 /* Debug */,
+				893BCFE619D824F8007DAB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		893BCFE719D824F8007DAB65 /* Build configuration list for PBXNativeTarget "ColorGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893BCFE819D824F8007DAB65 /* Debug */,
+				893BCFE919D824F8007DAB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		893BCFC919D824F8007DAB65 /* ColorGrid.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				893BCFCA19D824F8007DAB65 /* ColorGrid.xcdatamodel */,
+			);
+			currentVersion = 893BCFCA19D824F8007DAB65 /* ColorGrid.xcdatamodel */;
+			path = ColorGrid.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 893BCFBA19D824F8007DAB65 /* Project object */;
+}
