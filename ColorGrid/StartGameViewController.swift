@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  StartGameViewController.swift
 //  ColorGrid
 //
 //  Created by Oliver Lumby on 28/09/14.
@@ -8,22 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class StartGameViewController: UIViewController {
     
-    @IBOutlet weak var howToButton: UIButton!
+    @IBAction func unwindToStartGame (segue : UIStoryboardSegue) {}
     
-    @IBAction func unwindToHome (segue : UIStoryboardSegue) {}
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
+    
 }
-

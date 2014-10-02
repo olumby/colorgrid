@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		891E97E119D86D3400EDE280 /* EasyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E97E019D86D3400EDE280 /* EasyViewController.swift */; };
+		891E97E319D88F1D00EDE280 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E97E219D88F1D00EDE280 /* AppColors.swift */; };
+		8925FBB719D9E69F00BDCDF1 /* HardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925FBB619D9E69F00BDCDF1 /* HardViewController.swift */; };
 		893BCFC819D824F8007DAB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFC719D824F8007DAB65 /* AppDelegate.swift */; };
 		893BCFCB19D824F8007DAB65 /* ColorGrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFC919D824F8007DAB65 /* ColorGrid.xcdatamodeld */; };
 		893BCFCD19D824F8007DAB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFCC19D824F8007DAB65 /* ViewController.swift */; };
@@ -14,6 +17,9 @@
 		893BCFD219D824F8007DAB65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893BCFD119D824F8007DAB65 /* Images.xcassets */; };
 		893BCFD519D824F8007DAB65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 893BCFD319D824F8007DAB65 /* LaunchScreen.xib */; };
 		893BCFE119D824F8007DAB65 /* ColorGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFE019D824F8007DAB65 /* ColorGridTests.swift */; };
+		893BCFEB19D83EA4007DAB65 /* HowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFEA19D83EA4007DAB65 /* HowToViewController.swift */; };
+		893BCFED19D85825007DAB65 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFEC19D85825007DAB65 /* StartGameViewController.swift */; };
+		8998CDE919D99E24008AF5E7 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998CDE819D99E24008AF5E7 /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		891E97E019D86D3400EDE280 /* EasyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyViewController.swift; sourceTree = "<group>"; };
+		891E97E219D88F1D00EDE280 /* AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		8925FBB619D9E69F00BDCDF1 /* HardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardViewController.swift; sourceTree = "<group>"; };
 		893BCFC219D824F8007DAB65 /* ColorGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		893BCFC619D824F8007DAB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		893BCFC719D824F8007DAB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +47,9 @@
 		893BCFDA19D824F8007DAB65 /* ColorGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		893BCFDF19D824F8007DAB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		893BCFE019D824F8007DAB65 /* ColorGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGridTests.swift; sourceTree = "<group>"; };
+		893BCFEA19D83EA4007DAB65 /* HowToViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToViewController.swift; sourceTree = "<group>"; };
+		893BCFEC19D85825007DAB65 /* StartGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
+		8998CDE819D99E24008AF5E7 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +93,17 @@
 			children = (
 				893BCFC719D824F8007DAB65 /* AppDelegate.swift */,
 				893BCFCC19D824F8007DAB65 /* ViewController.swift */,
+				893BCFEA19D83EA4007DAB65 /* HowToViewController.swift */,
+				893BCFEC19D85825007DAB65 /* StartGameViewController.swift */,
+				891E97E019D86D3400EDE280 /* EasyViewController.swift */,
+				8925FBB619D9E69F00BDCDF1 /* HardViewController.swift */,
+				8998CDE819D99E24008AF5E7 /* ScoreViewController.swift */,
 				893BCFCE19D824F8007DAB65 /* Main.storyboard */,
 				893BCFD119D824F8007DAB65 /* Images.xcassets */,
 				893BCFD319D824F8007DAB65 /* LaunchScreen.xib */,
 				893BCFC919D824F8007DAB65 /* ColorGrid.xcdatamodeld */,
 				893BCFC519D824F8007DAB65 /* Supporting Files */,
+				891E97E219D88F1D00EDE280 /* AppColors.swift */,
 			);
 			path = ColorGrid;
 			sourceTree = "<group>";
@@ -164,6 +182,7 @@
 				TargetAttributes = {
 					893BCFC119D824F8007DAB65 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = URC4R8398F;
 					};
 					893BCFD919D824F8007DAB65 = {
 						CreatedOnToolsVersion = 6.0;
@@ -215,9 +234,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893BCFEB19D83EA4007DAB65 /* HowToViewController.swift in Sources */,
 				893BCFCD19D824F8007DAB65 /* ViewController.swift in Sources */,
+				8925FBB719D9E69F00BDCDF1 /* HardViewController.swift in Sources */,
+				891E97E119D86D3400EDE280 /* EasyViewController.swift in Sources */,
 				893BCFC819D824F8007DAB65 /* AppDelegate.swift in Sources */,
+				891E97E319D88F1D00EDE280 /* AppColors.swift in Sources */,
+				893BCFED19D85825007DAB65 /* StartGameViewController.swift in Sources */,
 				893BCFCB19D824F8007DAB65 /* ColorGrid.xcdatamodeld in Sources */,
+				8998CDE919D99E24008AF5E7 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ColorGrid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ColorGrid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +438,7 @@
 				893BCFE619D824F8007DAB65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		893BCFE719D824F8007DAB65 /* Build configuration list for PBXNativeTarget "ColorGridTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +447,7 @@
 				893BCFE919D824F8007DAB65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
