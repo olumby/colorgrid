@@ -24,6 +24,7 @@ class EasyViewController: UIViewController {
     
     var correctButtonTag:Int = 0
     
+    let buttonCount = 2
     let maxTime:Int = 60
     var currentTime:Int = 30
     var scoreValue = 0
@@ -152,7 +153,7 @@ class EasyViewController: UIViewController {
     {
         let newColors = UIColor.appRandomColors()
         
-        let randomTag:Int = Int(arc4random()) % 2;
+        let randomTag:Int = Int(arc4random()) % self.buttonCount;
         
         for view in self.buttonBox.subviews {
             if view.isKindOfClass(UIButton) {
@@ -196,7 +197,6 @@ class EasyViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
+
     
 }
