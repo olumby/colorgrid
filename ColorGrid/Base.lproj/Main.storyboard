@@ -468,6 +468,7 @@
                                         <color key="backgroundColor" red="0.97254901959999995" green="0.12941176469999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="hitButton:" destination="Y0W-Iv-ase" eventType="touchUpInside" id="NNn-cM-eGP"/>
+                                            <action selector="hitButton:" destination="7Vw-Kx-UK5" eventType="touchUpInside" id="Qtm-Zb-cKd"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avy-CJ-Ol3">
@@ -475,20 +476,23 @@
                                         <color key="backgroundColor" red="0.25882352939999997" green="0.77647058820000003" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="hitButton:" destination="Y0W-Iv-ase" eventType="touchUpInside" id="RLW-gY-BT0"/>
+                                            <action selector="hitButton:" destination="7Vw-Kx-UK5" eventType="touchUpInside" id="p4a-YX-IiK"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdU-fV-Jeb">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdU-fV-Jeb">
                                         <rect key="frame" x="294" y="270" width="274" height="250"/>
                                         <color key="backgroundColor" red="0.97254901959999995" green="0.12941176469999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="hitButton:" destination="Y0W-Iv-ase" eventType="touchUpInside" id="COc-GD-hCP"/>
+                                            <action selector="hitButton:" destination="7Vw-Kx-UK5" eventType="touchUpInside" id="p4p-4C-swZ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zom-WM-5eU">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zom-WM-5eU">
                                         <rect key="frame" x="294" y="0.0" width="274" height="250"/>
                                         <color key="backgroundColor" red="0.25882352939999997" green="0.77647058820000003" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="hitButton:" destination="Y0W-Iv-ase" eventType="touchUpInside" id="3Wh-Zi-K33"/>
+                                            <action selector="hitButton:" destination="7Vw-Kx-UK5" eventType="touchUpInside" id="O7X-DJ-dLI"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -531,7 +535,11 @@
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="uyI-8b-GOS"/>
-                                    <barButtonItem image="Pause" id="ath-DB-mPW" userLabel="Pause Button"/>
+                                    <barButtonItem image="Pause" id="ath-DB-mPW" userLabel="Pause Button">
+                                        <connections>
+                                            <action selector="pauseGame" destination="ZOI-DF-JSy" id="PUX-x7-3a5"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" red="0.98431372549999996" green="0.98431372549999996" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -580,6 +588,17 @@
                             <constraint firstItem="ApA-jH-kXh" firstAttribute="top" secondItem="zR8-2D-tze" secondAttribute="bottom" symbolic="YES" id="ygy-UF-qXa"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundBox" destination="cOJ-xQ-tfy" id="Mul-2h-tPF"/>
+                        <outlet property="backgroundCounter" destination="GsD-D2-EOW" id="lWP-mT-zCa"/>
+                        <outlet property="buttonBox" destination="Wcw-HJ-3Pp" id="7Lq-p9-WO1"/>
+                        <outlet property="colorFour" destination="xdU-fV-Jeb" id="Ypn-oQ-WG4"/>
+                        <outlet property="colorOne" destination="Zgc-oc-gpF" id="2AY-wk-WXr"/>
+                        <outlet property="colorThree" destination="Avy-CJ-Ol3" id="wqS-C1-H9U"/>
+                        <outlet property="colorTwo" destination="zom-WM-5eU" id="NpL-UU-FFi"/>
+                        <outlet property="writtenCounter" destination="zmz-Lu-Sgb" id="dhS-0M-gEQ"/>
+                        <outlet property="writtenScore" destination="0Zh-gE-Awp" id="gql-Mz-3Ng"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Vw-Kx-UK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="S2N-30-JaI" userLabel="Exit" sceneMemberID="exit"/>
