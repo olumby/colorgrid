@@ -45,11 +45,6 @@ class HardViewController: UIViewController {
         self.setUpGame()
     }
     
-    @IBAction func unwindToHard (segue : UIStoryboardSegue)
-    {
-        self.setUpGame()
-    }
-    
     func setUpGame()
     {
         currentTime = 30

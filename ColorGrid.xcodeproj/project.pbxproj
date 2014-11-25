@@ -91,6 +91,7 @@
 		893BCFC419D824F8007DAB65 /* ColorGrid */ = {
 			isa = PBXGroup;
 			children = (
+				893BCFCE19D824F8007DAB65 /* Main.storyboard */,
 				893BCFC719D824F8007DAB65 /* AppDelegate.swift */,
 				893BCFCC19D824F8007DAB65 /* ViewController.swift */,
 				893BCFEA19D83EA4007DAB65 /* HowToViewController.swift */,
@@ -98,7 +99,6 @@
 				891E97E019D86D3400EDE280 /* EasyViewController.swift */,
 				8925FBB619D9E69F00BDCDF1 /* HardViewController.swift */,
 				8998CDE819D99E24008AF5E7 /* ScoreViewController.swift */,
-				893BCFCE19D824F8007DAB65 /* Main.storyboard */,
 				893BCFD119D824F8007DAB65 /* Images.xcassets */,
 				893BCFD319D824F8007DAB65 /* LaunchScreen.xib */,
 				893BCFC919D824F8007DAB65 /* ColorGrid.xcdatamodeld */,

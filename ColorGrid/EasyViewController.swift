@@ -43,11 +43,6 @@ class EasyViewController: UIViewController {
         self.setUpGame()
     }
     
-    @IBAction func unwindToEasy (segue : UIStoryboardSegue)
-    {
-        self.setUpGame()
-    }
-    
     func setUpGame()
     {
         currentTime = 30
