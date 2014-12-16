@@ -19,6 +19,7 @@
 		893BCFE119D824F8007DAB65 /* ColorGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFE019D824F8007DAB65 /* ColorGridTests.swift */; };
 		893BCFEB19D83EA4007DAB65 /* HowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFEA19D83EA4007DAB65 /* HowToViewController.swift */; };
 		893BCFED19D85825007DAB65 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFEC19D85825007DAB65 /* StartGameViewController.swift */; };
+		898560C01A40F1D6000D3E33 /* HarderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898560BF1A40F1D6000D3E33 /* HarderViewController.swift */; };
 		8998CDE919D99E24008AF5E7 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998CDE819D99E24008AF5E7 /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		893BCFE019D824F8007DAB65 /* ColorGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGridTests.swift; sourceTree = "<group>"; };
 		893BCFEA19D83EA4007DAB65 /* HowToViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToViewController.swift; sourceTree = "<group>"; };
 		893BCFEC19D85825007DAB65 /* StartGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
+		898560BF1A40F1D6000D3E33 /* HarderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarderViewController.swift; sourceTree = "<group>"; };
 		8998CDE819D99E24008AF5E7 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 				893BCFEC19D85825007DAB65 /* StartGameViewController.swift */,
 				891E97E019D86D3400EDE280 /* EasyViewController.swift */,
 				8925FBB619D9E69F00BDCDF1 /* HardViewController.swift */,
+				898560BF1A40F1D6000D3E33 /* HarderViewController.swift */,
 				8998CDE819D99E24008AF5E7 /* ScoreViewController.swift */,
 				893BCFD119D824F8007DAB65 /* Images.xcassets */,
 				893BCFD319D824F8007DAB65 /* LaunchScreen.xib */,
@@ -240,6 +243,7 @@
 				891E97E119D86D3400EDE280 /* EasyViewController.swift in Sources */,
 				893BCFC819D824F8007DAB65 /* AppDelegate.swift in Sources */,
 				891E97E319D88F1D00EDE280 /* AppColors.swift in Sources */,
+				898560C01A40F1D6000D3E33 /* HarderViewController.swift in Sources */,
 				893BCFED19D85825007DAB65 /* StartGameViewController.swift in Sources */,
 				893BCFCB19D824F8007DAB65 /* ColorGrid.xcdatamodeld in Sources */,
 				8998CDE919D99E24008AF5E7 /* ScoreViewController.swift in Sources */,

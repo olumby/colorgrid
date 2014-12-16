@@ -85,6 +85,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="mdO-se-mjn" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
+            <point key="canvasLocation" x="223" y="953"/>
         </scene>
         <!--Start Game View Controller-->
         <scene sceneID="Pnm-Ka-exw">
@@ -225,7 +226,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dp-lJ-zgh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1256" y="146"/>
+            <point key="canvasLocation" x="223" y="1822"/>
         </scene>
         <!--Easy View Controller-->
         <scene sceneID="xtz-UC-nAJ">
@@ -260,14 +261,14 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUU-83-bNt">
                                         <rect key="frame" x="0.0" y="0.0" width="568" height="250"/>
-                                        <color key="backgroundColor" red="0.97254901959999995" green="0.12941176469999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.95686274509803926" green="0.75294117647058822" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="hitButton:" destination="Y0W-Iv-ase" eventType="touchUpInside" id="XqB-g8-62C"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8r6-FA-auQ">
                                         <rect key="frame" x="0.0" y="270" width="568" height="250"/>
-                                        <color key="backgroundColor" red="0.25882352939999997" green="0.77647058820000003" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.9137254901960784" green="0.52156862745098043" blue="0.53725490196078429" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="hitButton:" destination="Y0W-Iv-ase" eventType="touchUpInside" id="K7y-8z-o3q"/>
                                         </connections>
@@ -400,7 +401,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oxy-BR-L0G" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="D4i-sB-m7o" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2067" y="145"/>
+            <point key="canvasLocation" x="2287" y="14"/>
         </scene>
         <!--Hard View Controller-->
         <scene sceneID="PtE-pU-IsW">
@@ -451,7 +452,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgc-oc-gpF">
                                         <rect key="frame" x="0.0" y="0.0" width="274" height="250"/>
-                                        <color key="backgroundColor" red="0.97254901959999995" green="0.12941176469999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.72549019607843135" green="0.74117647058823533" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="hitButton:" destination="Y0W-Iv-ase" eventType="touchUpInside" id="NNn-cM-eGP"/>
                                             <action selector="hitButton:" destination="7Vw-Kx-UK5" eventType="touchUpInside" id="Qtm-Zb-cKd"/>
@@ -459,7 +460,7 @@
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avy-CJ-Ol3">
                                         <rect key="frame" x="0.0" y="270" width="274" height="250"/>
-                                        <color key="backgroundColor" red="0.25882352939999997" green="0.77647058820000003" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.40000000000000002" green="0.4392156862745098" blue="0.74901960784313726" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="hitButton:" destination="Y0W-Iv-ase" eventType="touchUpInside" id="RLW-gY-BT0"/>
                                             <action selector="hitButton:" destination="7Vw-Kx-UK5" eventType="touchUpInside" id="p4a-YX-IiK"/>
@@ -467,7 +468,7 @@
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdU-fV-Jeb">
                                         <rect key="frame" x="294" y="270" width="274" height="250"/>
-                                        <color key="backgroundColor" red="0.97254901959999995" green="0.12941176469999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.29019607843137257" green="0.32941176470588235" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="hitButton:" destination="Y0W-Iv-ase" eventType="touchUpInside" id="COc-GD-hCP"/>
                                             <action selector="hitButton:" destination="7Vw-Kx-UK5" eventType="touchUpInside" id="p4p-4C-swZ"/>
@@ -475,7 +476,7 @@
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zom-WM-5eU">
                                         <rect key="frame" x="294" y="0.0" width="274" height="250"/>
-                                        <color key="backgroundColor" red="0.25882352939999997" green="0.77647058820000003" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.55686274509803924" green="0.58823529411764708" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="hitButton:" destination="Y0W-Iv-ase" eventType="touchUpInside" id="3Wh-Zi-K33"/>
                                             <action selector="hitButton:" destination="7Vw-Kx-UK5" eventType="touchUpInside" id="O7X-DJ-dLI"/>
@@ -590,7 +591,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Vw-Kx-UK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="S2N-30-JaI" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2067" y="953"/>
+            <point key="canvasLocation" x="2287" y="954"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="0Da-K6-1dS">
@@ -644,12 +645,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRL-VX-nTU" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="ImC-m9-RlE" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2885" y="953"/>
+            <point key="canvasLocation" x="3341" y="953"/>
         </scene>
-        <!--View Controller-->
+        <!--Harder View Controller-->
         <scene sceneID="kQq-Wa-2cg">
             <objects>
-                <viewController id="J3a-P8-hnu" sceneMemberID="viewController">
+                <viewController id="J3a-P8-hnu" customClass="HarderViewController" customModule="ColorGrid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zr2-su-Wj6"/>
                         <viewControllerLayoutGuide type="bottom" id="AU9-E8-chS"/>
@@ -695,7 +696,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yX3-Cw-joS">
                                         <rect key="frame" x="0.0" y="0.0" width="274" height="160"/>
-                                        <color key="backgroundColor" red="0.97254901959999995" green="0.12941176469999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.8901960784313725" green="0.95294117647058818" blue="0.89411764705882357" alpha="1" colorSpace="calibratedRGB"/>
                                         <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="0.0" y="0.0" width="174" height="160"/>
                                         </variation>
@@ -706,7 +707,7 @@
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHh-1e-VtP">
                                         <rect key="frame" x="0.0" y="180" width="274" height="160"/>
-                                        <color key="backgroundColor" red="0.25882352939999997" green="0.77647058820000003" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.58823529411764708" green="0.81568627450980391" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
                                         <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="0.0" y="180" width="174" height="160"/>
                                         </variation>
@@ -717,7 +718,7 @@
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ps4-aK-MLi">
                                         <rect key="frame" x="294" y="180" width="274" height="160"/>
-                                        <color key="backgroundColor" red="0.97254901959999995" green="0.12941176469999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.4392156862745098" green="0.74509803921568629" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
                                         <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="194" y="180" width="174" height="160"/>
                                         </variation>
@@ -728,7 +729,7 @@
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBr-hJ-IaN">
                                         <rect key="frame" x="294" y="0.0" width="274" height="160"/>
-                                        <color key="backgroundColor" red="0.25882352939999997" green="0.77647058820000003" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.74117647058823533" green="0.88235294117647056" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
                                         <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="194" y="0.0" width="174" height="160"/>
                                         </variation>
@@ -739,7 +740,7 @@
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FF0-bL-M49">
                                         <rect key="frame" x="294" y="360" width="274" height="160"/>
-                                        <color key="backgroundColor" red="0.25882352939999997" green="0.77647058820000003" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.27058823529411763" green="0.63921568627450975" blue="0.24705882352941178" alpha="1" colorSpace="calibratedRGB"/>
                                         <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="194" y="360" width="174" height="160"/>
                                         </variation>
@@ -750,7 +751,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIj-ny-Gu2">
                                         <rect key="frame" x="0.0" y="360" width="274" height="160"/>
-                                        <color key="backgroundColor" red="0.97254901959999995" green="0.12941176469999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.33725490196078434" green="0.69019607843137254" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
                                         <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="0.0" y="360" width="174" height="160"/>
                                         </variation>
@@ -912,13 +913,13 @@
                                 <items>
                                     <barButtonItem image="Exit" id="CKe-XX-fiX" userLabel="Exit Button">
                                         <connections>
-                                            <segue destination="rnB-eG-rmE" kind="unwind" unwindAction="unwindToStartGame:" id="fhY-5D-gTQ"/>
+                                            <segue destination="rnB-eG-rmE" kind="unwind" unwindAction="unwindToStartGame:" id="L1R-MB-TEo"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="YMV-t4-XFY"/>
                                     <barButtonItem image="Pause" id="ebo-c6-v7E" userLabel="Pause Button">
                                         <connections>
-                                            <action selector="pauseGame" destination="ZOI-DF-JSy" id="nYJ-eX-xSl"/>
+                                            <action selector="pauseGame" destination="J3a-P8-hnu" id="WzN-Fk-mAl"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -975,11 +976,25 @@
                             <constraint firstItem="AU9-E8-chS" firstAttribute="top" secondItem="LTm-nN-tOI" secondAttribute="bottom" id="xvm-t7-pSh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundBox" destination="LTm-nN-tOI" id="1Nw-au-ck3"/>
+                        <outlet property="backgroundCounter" destination="Fdc-Xi-R0p" id="wFm-My-cYk"/>
+                        <outlet property="buttonBox" destination="jso-JB-7tE" id="tS8-0p-eO4"/>
+                        <outlet property="colorFive" destination="LIj-ny-Gu2" id="5sq-WL-iBw"/>
+                        <outlet property="colorFour" destination="Ps4-aK-MLi" id="2mi-rh-ie1"/>
+                        <outlet property="colorOne" destination="yX3-Cw-joS" id="53b-tK-jf7"/>
+                        <outlet property="colorSix" destination="FF0-bL-M49" id="61a-ZN-zIu"/>
+                        <outlet property="colorThree" destination="BHh-1e-VtP" id="B2I-z7-ihH"/>
+                        <outlet property="colorTwo" destination="DBr-hJ-IaN" id="Jw0-5K-aee"/>
+                        <outlet property="writtenCounter" destination="awh-Dz-9aL" id="Kti-zn-LWa"/>
+                        <outlet property="writtenScore" destination="Yeh-Z0-h3B" id="vFg-tP-ZSh"/>
+                        <segue destination="twI-5I-VTf" kind="presentation" identifier="gameOver" modalTransitionStyle="crossDissolve" id="BOm-ND-e02"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VO5-IK-OZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="rnB-eG-rmE" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2067" y="1741.5"/>
+            <point key="canvasLocation" x="2287" y="1822"/>
         </scene>
     </scenes>
     <resources>
@@ -987,6 +1002,6 @@
         <image name="Pause" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Y47-b4-Tq1"/>
+        <segue reference="BOm-ND-e02"/>
     </inferredMetricsTieBreakers>
 </document>
