@@ -9,11 +9,17 @@
 import UIKit
 
 class HowToViewController: UIViewController {
-    
+	
+	@IBOutlet weak var webView: UIWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+		
+		//		        self.webView!.mainFrame.loadRequest(NSURLRequest(URL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("default", ofType: "html")!)!))
+		
+		self.webView.loadRequest(NSURLRequest(URL: NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("howTo", ofType: "html")!)!))
+		
     }
     
     override func didReceiveMemoryWarning() {

@@ -20,6 +20,7 @@
 		893BCFEB19D83EA4007DAB65 /* HowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFEA19D83EA4007DAB65 /* HowToViewController.swift */; };
 		893BCFED19D85825007DAB65 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFEC19D85825007DAB65 /* StartGameViewController.swift */; };
 		898560C01A40F1D6000D3E33 /* HarderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898560BF1A40F1D6000D3E33 /* HarderViewController.swift */; };
+		898560C31A40F4BF000D3E33 /* howTo.html in Resources */ = {isa = PBXBuildFile; fileRef = 898560C21A40F4BF000D3E33 /* howTo.html */; };
 		8998CDE919D99E24008AF5E7 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998CDE819D99E24008AF5E7 /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		893BCFEA19D83EA4007DAB65 /* HowToViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToViewController.swift; sourceTree = "<group>"; };
 		893BCFEC19D85825007DAB65 /* StartGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
 		898560BF1A40F1D6000D3E33 /* HarderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HarderViewController.swift; sourceTree = "<group>"; };
+		898560C21A40F4BF000D3E33 /* howTo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = howTo.html; sourceTree = "<group>"; };
 		8998CDE819D99E24008AF5E7 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,12 +98,11 @@
 				893BCFCE19D824F8007DAB65 /* Main.storyboard */,
 				893BCFC719D824F8007DAB65 /* AppDelegate.swift */,
 				893BCFCC19D824F8007DAB65 /* ViewController.swift */,
-				893BCFEA19D83EA4007DAB65 /* HowToViewController.swift */,
 				893BCFEC19D85825007DAB65 /* StartGameViewController.swift */,
-				891E97E019D86D3400EDE280 /* EasyViewController.swift */,
-				8925FBB619D9E69F00BDCDF1 /* HardViewController.swift */,
-				898560BF1A40F1D6000D3E33 /* HarderViewController.swift */,
 				8998CDE819D99E24008AF5E7 /* ScoreViewController.swift */,
+				898560C11A40F486000D3E33 /* Modes */,
+				893BCFEA19D83EA4007DAB65 /* HowToViewController.swift */,
+				898560C21A40F4BF000D3E33 /* howTo.html */,
 				893BCFD119D824F8007DAB65 /* Images.xcassets */,
 				893BCFD319D824F8007DAB65 /* LaunchScreen.xib */,
 				893BCFC919D824F8007DAB65 /* ColorGrid.xcdatamodeld */,
@@ -134,6 +135,16 @@
 				893BCFDF19D824F8007DAB65 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		898560C11A40F486000D3E33 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+				891E97E019D86D3400EDE280 /* EasyViewController.swift */,
+				8925FBB619D9E69F00BDCDF1 /* HardViewController.swift */,
+				898560BF1A40F1D6000D3E33 /* HarderViewController.swift */,
+			);
+			name = Modes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +230,7 @@
 			files = (
 				893BCFD019D824F8007DAB65 /* Main.storyboard in Resources */,
 				893BCFD519D824F8007DAB65 /* LaunchScreen.xib in Resources */,
+				898560C31A40F4BF000D3E33 /* howTo.html in Resources */,
 				893BCFD219D824F8007DAB65 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
