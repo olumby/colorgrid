@@ -10,6 +10,7 @@
 		891E97E119D86D3400EDE280 /* EasyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E97E019D86D3400EDE280 /* EasyViewController.swift */; };
 		891E97E319D88F1D00EDE280 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E97E219D88F1D00EDE280 /* AppColors.swift */; };
 		8925FBB719D9E69F00BDCDF1 /* HardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925FBB619D9E69F00BDCDF1 /* HardViewController.swift */; };
+		892CA6B41A4458A0007FB6B9 /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892CA6B31A4458A0007FB6B9 /* GameMode.swift */; };
 		893BCFC819D824F8007DAB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFC719D824F8007DAB65 /* AppDelegate.swift */; };
 		893BCFCB19D824F8007DAB65 /* ColorGrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFC919D824F8007DAB65 /* ColorGrid.xcdatamodeld */; };
 		893BCFCD19D824F8007DAB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BCFCC19D824F8007DAB65 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 		891E97E019D86D3400EDE280 /* EasyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyViewController.swift; sourceTree = "<group>"; };
 		891E97E219D88F1D00EDE280 /* AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		8925FBB619D9E69F00BDCDF1 /* HardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HardViewController.swift; sourceTree = "<group>"; };
+		892CA6B31A4458A0007FB6B9 /* GameMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMode.swift; sourceTree = "<group>"; };
 		893BCFC219D824F8007DAB65 /* ColorGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		893BCFC619D824F8007DAB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		893BCFC719D824F8007DAB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		898560C11A40F486000D3E33 /* Modes */ = {
 			isa = PBXGroup;
 			children = (
+				892CA6B31A4458A0007FB6B9 /* GameMode.swift */,
 				891E97E019D86D3400EDE280 /* EasyViewController.swift */,
 				8925FBB619D9E69F00BDCDF1 /* HardViewController.swift */,
 				898560BF1A40F1D6000D3E33 /* HarderViewController.swift */,
@@ -256,6 +259,7 @@
 				893BCFC819D824F8007DAB65 /* AppDelegate.swift in Sources */,
 				891E97E319D88F1D00EDE280 /* AppColors.swift in Sources */,
 				898560C01A40F1D6000D3E33 /* HarderViewController.swift in Sources */,
+				892CA6B41A4458A0007FB6B9 /* GameMode.swift in Sources */,
 				893BCFED19D85825007DAB65 /* StartGameViewController.swift in Sources */,
 				893BCFCB19D824F8007DAB65 /* ColorGrid.xcdatamodeld in Sources */,
 				8998CDE919D99E24008AF5E7 /* ScoreViewController.swift in Sources */,

@@ -19,6 +19,8 @@ class EasyViewController: UIViewController {
     @IBOutlet weak var buttonBox: UIView!
     @IBOutlet weak var colorOne: UIButton!
     @IBOutlet weak var colorTwo: UIButton!
+	
+	var gameMode: GameMode!
     
     var colorStore:Array<UIColor>!
     
@@ -39,6 +41,10 @@ class EasyViewController: UIViewController {
         
         self.backgroundBox.backgroundColor = UIColor.appBoxDark()
         self.backgroundCounter.backgroundColor = UIColor.appBoxLight()
+		
+		self.gameMode = GameMode(buttons: [], counterTick: { () -> Void in
+			self.countTimer()
+		})
         
         self.setUpGame()
     }
